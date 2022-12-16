@@ -1,4 +1,4 @@
-# 201 Lab: Class 14 Shopping Cwrt
+# 201 Lab: Class 14 Shopping Cart
 
 [GitHub Repo](https://github.com/Jeremy-Cleland/shopping-cart)
 
