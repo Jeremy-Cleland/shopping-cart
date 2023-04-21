@@ -55,7 +55,7 @@ function updateCounter() {
   const selectElement = document.getElementById('itemCount');
   for (let i in state.cart.items) {
     itemCount += Number(state.cart.items[i].quantity);
-    console.log(state.cart.items[i].quantity);
+    
   }
   selectElement.textContent = ` ${itemCount} Items`
 }
@@ -78,7 +78,7 @@ function updateCartPreview() {
   newIteminCart.textContent = `You have added ${selectedQuantity} ${selectedItem}(s) to your cart`;
 
   cartContents.appendChild(newIteminCart);
-  console.log(newIteminCart)
+  
 }
 
 // Set up the "submit" event listener on the form.
